@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.156
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "email.helper", "email.helper\email.helper.csproj", "{7162455C-8377-4912-A38B-BA5A09B0693B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aliyun.sdk.helper", "aliyun.sdk.helper\aliyun.sdk.helper.csproj", "{7162455C-8377-4912-A38B-BA5A09B0693B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

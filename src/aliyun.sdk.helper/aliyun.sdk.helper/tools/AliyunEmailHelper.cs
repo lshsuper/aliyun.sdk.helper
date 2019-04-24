@@ -8,15 +8,15 @@ using System.Text;
 
 namespace email.helper.tools
 {
-    public class AliyunSdkHelper
+    public class AliyunEmailHelper
     {
 
         /// <summary>
-        /// 发邮件
+        /// 发邮件(单封)
         /// </summary>
         /// <param name="option"></param>
         /// <returns></returns>
-        public static bool SendEmail(AliyunEmailOption option)
+        public static bool SendSingle(AliyunEmailOption option)
         {
             IClientProfile profile = DefaultProfile.GetProfile("cn-hangzhou", option.AppKey, option.AppSecret);
             IAcsClient client = new DefaultAcsClient(profile);

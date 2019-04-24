@@ -11,7 +11,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-           bool result=AliyunSdkHelper.SendEmail(new AliyunEmailOption()
+           bool result=AliyunEmailHelper.SendSingle(new AliyunEmailOption()
             {
                 AppKey = "你的应用key",
                 AppSecret = "你的应用密码",
